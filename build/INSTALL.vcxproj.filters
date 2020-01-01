@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\QiOAuth2\build\CMakeFiles\c77aeb24c75e7e0fc08f48f0afe03d1e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A56A0AF0-066B-30EA-B131-14A25C189B7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

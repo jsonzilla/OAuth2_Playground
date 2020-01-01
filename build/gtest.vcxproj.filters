@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\QiOAuth2\gtest\googletest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\QiOAuth2\gtest\googletest\src\gtest_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\QiOAuth2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D0AEACCB-A659-34B9-84C3-7196096EFFA3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1974CC7C-E9C8-3E8B-9AF2-06A1ED519A03}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workspace\QiOAuth2\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workspace\QiOAuth2\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workspace\QiOAuth2\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workspace\QiOAuth2\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\gtest.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libcrypto.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libssl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/QiOAuth2/build/Debug/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/QiOAuth2/build/Debug/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\gtest.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libcrypto.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libssl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/QiOAuth2/build/Release/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/QiOAuth2/build/Release/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\gtest.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libcrypto.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libssl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/QiOAuth2/build/MinSizeRel/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/QiOAuth2/build/MinSizeRel/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GTEST_HAS_TR1_TUPLE=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\QiOAuth2\cpp-httplib;D:\workspace\QiOAuth2\jwt-cpp\include;D:\workspace\QiOAuth2\src\..\gtest\googletest;D:\workspace\QiOAuth2\src\..\gtest\googletest\include;D:\workspace\QiOAuth2\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\gtest.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libcrypto.lib;D:\workspace\QiOAuth2\OpenSSL\lib\libssl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/QiOAuth2/build/RelWithDebInfo/tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workspace/QiOAuth2/build/RelWithDebInfo/tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\QiOAuth2\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/workspace/QiOAuth2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/QiOAuth2/src -BD:/workspace/QiOAuth2/build --check-stamp-file D:/workspace/QiOAuth2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\workspace\QiOAuth2\OpenSSL\openSSL.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCXXCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeRCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeSystem.cmake;D:\workspace\QiOAuth2\src\gtest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workspace\QiOAuth2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/workspace/QiOAuth2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/QiOAuth2/src -BD:/workspace/QiOAuth2/build --check-stamp-file D:/workspace/QiOAuth2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\workspace\QiOAuth2\OpenSSL\openSSL.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCXXCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeRCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeSystem.cmake;D:\workspace\QiOAuth2\src\gtest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workspace\QiOAuth2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/workspace/QiOAuth2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/QiOAuth2/src -BD:/workspace/QiOAuth2/build --check-stamp-file D:/workspace/QiOAuth2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\workspace\QiOAuth2\OpenSSL\openSSL.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCXXCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeRCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeSystem.cmake;D:\workspace\QiOAuth2\src\gtest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workspace\QiOAuth2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/workspace/QiOAuth2/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/QiOAuth2/src -BD:/workspace/QiOAuth2/build --check-stamp-file D:/workspace/QiOAuth2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\ROCMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\workspace\QiOAuth2\OpenSSL\openSSL.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeCXXCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeRCCompiler.cmake;D:\workspace\QiOAuth2\build\CMakeFiles\3.21.2\CMakeSystem.cmake;D:\workspace\QiOAuth2\src\gtest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workspace\QiOAuth2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\QiOAuth2\src\unit_tests.cpp" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\aes.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1_mac.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1err.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1t.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\async.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asyncerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bio.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bioerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\blowfish.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bn.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bnerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\buffer.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\buffererr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\camellia.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cast.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmac.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmp.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmp_util.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmperr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cms.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmserr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\comp.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\comperr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conf.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conf_api.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conferr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\configuration.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conftypes.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core_dispatch.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core_names.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core_object.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\crmf.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\crmferr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\crypto.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cryptoerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cryptoerr_legacy.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ct.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cterr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\decoder.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\decodererr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\des.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dh.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dherr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dsa.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dsaerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dtls1.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\e_os2.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ebcdic.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ec.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ecdh.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ecdsa.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ecerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\encoder.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\encodererr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\engine.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\engineerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\err.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ess.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\esserr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\evp.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\evperr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\fips_names.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\fipskey.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\hmac.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\http.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\httperr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\idea.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\kdf.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\kdferr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\lhash.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\macros.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\md2.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\md4.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\md5.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\mdc2.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\modes.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\obj_mac.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\objects.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\objectserr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ocsp.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ocsperr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\opensslconf.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\opensslv.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ossl_typ.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\param_build.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\params.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pem.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pem2.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pemerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs12.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs12err.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs7.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs7err.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\prov_ssl.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\proverr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\provider.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rand.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\randerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rc2.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rc4.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rc5.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ripemd.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rsa.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rsaerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\safestack.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\seed.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\self_test.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\sha.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\srp.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\srtp.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ssl.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ssl2.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ssl3.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\sslerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\sslerr_legacy.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\stack.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\store.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\storeerr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\symhacks.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\tls1.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\trace.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ts.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\tserr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\txt_db.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\types.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ui.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\uierr.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\whrlpool.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509_vfy.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509err.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509v3.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509v3err.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\cpp-httplib\httplib.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\cpp-httplib\test\gtest\gtest.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\base.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\jwt.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\boost-json\defaults.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\boost-json\traits.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\danielaparker-jsoncons\defaults.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\danielaparker-jsoncons\traits.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\kazuho-picojson\defaults.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\kazuho-picojson\traits.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\nlohmann-json\defaults.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\nlohmann-json\traits.h" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\nlohmann\json.hpp" />
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\picojson\picojson.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\workspace\QiOAuth2\build\ZERO_CHECK.vcxproj">
+      <Project>{2A26BD5D-AB2C-31CF-8D62-4910BC617A99}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\workspace\QiOAuth2\build\gtest.vcxproj">
+      <Project>{3994A8CD-88B0-30A9-93CC-FCC8E9E09619}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

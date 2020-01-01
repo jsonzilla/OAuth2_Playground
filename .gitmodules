@@ -1,0 +1,9 @@
+[submodule "gtest"]
+	path = gtest
+	url = https://github.com/google/googletest.git
+[submodule "jwt-cpp"]
+	path = jwt-cpp
+	url = https://github.com/Thalhammer/jwt-cpp
+[submodule "cpp-httplib"]
+	path = cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib

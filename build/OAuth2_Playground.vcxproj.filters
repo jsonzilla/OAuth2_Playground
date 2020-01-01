@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\QiOAuth2\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asn1t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\async.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\asyncerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bioerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\blowfish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\bnerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\buffererr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\camellia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmp_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmperr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cmserr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\comp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\comperr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conf_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conferr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\conftypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core_dispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core_names.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\core_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\crmf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\crmferr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cryptoerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cryptoerr_legacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\cterr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\decodererr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\des.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dherr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dsa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dsaerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\dtls1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\e_os2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ebcdic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ecdh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ecdsa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ecerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\encodererr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\engineerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\esserr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\evp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\evperr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\fips_names.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\fipskey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\hmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\httperr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\idea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\kdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\kdferr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\lhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\md2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\md4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\mdc2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\modes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\obj_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\objectserr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ocsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ocsperr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\opensslconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\opensslv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ossl_typ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\param_build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pem2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pemerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs12err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\pkcs7err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\prov_ssl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\proverr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\randerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rc2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rc4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rc5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ripemd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rsa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\rsaerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\safestack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\seed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\self_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\sha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\srp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\srtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ssl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ssl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ssl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\sslerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\sslerr_legacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\store.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\storeerr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\symhacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\tls1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\tserr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\txt_db.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\uierr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\whrlpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509_vfy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509v3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\OpenSSL\include\openssl\x509v3err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\cpp-httplib\httplib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\cpp-httplib\test\gtest\gtest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\jwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\boost-json\defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\boost-json\traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\danielaparker-jsoncons\defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\danielaparker-jsoncons\traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\kazuho-picojson\defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\kazuho-picojson\traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\nlohmann-json\defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\jwt-cpp\traits\nlohmann-json\traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\nlohmann\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\QiOAuth2\jwt-cpp\include\picojson\picojson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\QiOAuth2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CFC89C1E-9A6B-3835-849B-DA9B140AB749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D0AEACCB-A659-34B9-84C3-7196096EFFA3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
