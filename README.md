@@ -1,5 +1,5 @@
 # OAuth2_Playground
-WIP de lib para integrar a proteção para a comunição com o KeyCloack/Certificador
+WIP de lib para integrar a proteção para a comunição com o KeyCloack
 
 ## Baixar os submodulos
 ````
